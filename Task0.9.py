@@ -6,6 +6,6 @@ def vowel_identify(name):
             if character in results:
                 continue
             results += character        #incrementing results with characters that exists between vowels and string
-    return results
+    return (','.join(results))
 name = "UMUZI"
 print(f"vowels: {vowel_identify(name)}")

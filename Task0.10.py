@@ -1,11 +1,11 @@
 def compare_words(word_1, word_2):
-    results = " "
+    results = ""
     for character in word_1.lower():    #Iterating within first string
         if character in word_2.lower():
             if character in results:
                     continue        #continue if character is in results
             results += character      #incrementing results with characters that exist in the two string  
-    return results
+    return (','.join(results))
 
 word1 = "Stink"
 word2 = "Spring"

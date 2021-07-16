@@ -6,6 +6,6 @@ def vowel_identify(name):
             if character in results:
                 continue
             results += character        #incrementing results with characters that exists between vowels and string
-    return (','.join(results))
+    print(f"vowels: {(', '.join(results))}.")
 name = "UMUZI"
-print(f"vowels: {vowel_identify(name)}")
+vowel_identify(name)

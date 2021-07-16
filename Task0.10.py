@@ -5,8 +5,8 @@ def compare_words(word_1, word_2):
             if character in results:
                     continue        #continue if character is in results
             results += character      #incrementing results with characters that exist in the two string  
-    return (','.join(results))
+    print(f"Common words: {(', '.join(results))}.")
 
-word1 = "Stink"
+word1 = "stink"
 word2 = "Spring"
-print(f"common words:{compare_words(word1, word2)}")
+compare_words(word1, word2)

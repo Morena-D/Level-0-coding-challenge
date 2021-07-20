@@ -3,5 +3,5 @@ def even_or_odd(x):
         print ("Even")
     else:
         print("odd")
-x = 91
-even_or_odd(x)
+
+even_or_odd(91)

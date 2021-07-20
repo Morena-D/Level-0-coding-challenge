@@ -9,5 +9,4 @@ def time_convert(t):
         return f"{hours} hours and {minutes} minute"
     return f"{hours} hours and {minutes} minutes"
 
-t = 71
-print(time_convert(t))
+print(time_convert(71))
